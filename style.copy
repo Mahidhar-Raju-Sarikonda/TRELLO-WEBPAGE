@@ -1,0 +1,443 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    margin: 0px;
+    background-color: white;
+
+}
+
+container {
+    width: 12000px;
+    margin: auto;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    background: linear-gradient(135deg, #0079bf, #5067c5);
+    width: 100%;
+    height: 75px;
+    position: relative;
+    border-bottom: 0.01px solid#000;
+
+
+}
+
+.header .hdt {
+    position: absolute;
+    left: 84%;
+    top: 28%;
+
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    font-weight: 500;
+
+
+}
+
+.header .login {
+    padding: 8px;
+    background-color: white;
+    color: #5067c5;
+    border-radius: 5px;
+}
+
+/*s1*/
+.s1 {
+    width: 100%;
+    height: 620px;
+    background: linear-gradient(135deg, #0079bf, #5067c5);
+    position: relative;
+}
+
+.s1 .s1-img {
+    background-image: url('s1img.svg');
+    background-size: 95%;
+    background-repeat: no-repeat;
+    width: 45%;
+    height: 450px;
+    position: absolute;
+    left: 650px;
+    top: 30px;
+
+
+}
+
+.s1 .s1-txt {
+    width: 43%;
+    height: 80%;
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    left: 60px;
+    top: 50px;
+}
+
+.s1 .s1-txt h3 {
+    font-size: 45px;
+
+    font-weight: 600;
+    width: 580px;
+    height: 140px;
+
+}
+
+.s1 .s1-txt p {
+    font-size: 22px;
+
+    line-height: 35px;
+    width: 450px;
+
+}
+
+.mail {
+    width: 650px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    top: 460px;
+    left: 75px;
+
+}
+
+.s1 .mail .mb {
+
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+    color: grey;
+    background-color: white;
+    font-size: 20px;
+
+    padding: 10px 20px;
+
+}
+
+.s1 .mail .sub {
+    border-radius: 5px;
+    width: 250px;
+    height: 35px;
+    color: white;
+    background-color: #61BD4F;
+    font-size: 23px;
+    margin-left: 8px;
+    padding: 5px;
+    border: 3px solid hsl(110, 58%, 42%);
+    text-align: center;
+    font-family: Verdana;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.s2 {
+    width: 100%;
+    height: 1500px;
+
+
+
+}
+
+.s2a {
+    width: 100%;
+    height: 500px;
+
+}
+
+.s2a .s2ap {
+    background-image: url('s2i1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    width: 55%;
+    position: absolute;
+    right: 40px;
+    margin: 20px;
+
+}
+
+.s2a .s2at {
+    width: 32%;
+    margin-top: 150px;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #172B4D;
+    position: absolute;
+    left: 80px;
+
+}
+
+.s2a .s2at p {
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: -15px;
+    line-height: 30px;
+}
+
+.s2a .s2at h4 {
+    background-color: #6D8EA2;
+    color: white;
+    font-weight: 10;
+    padding: 10px;
+    width: 150px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 22px;
+    text-align: center;
+    border: 3px solid#6D8EA2;
+}
+
+.s2a .s2at h4:hover {
+    background-color: grey;
+}
+
+.s2b {
+    width: 100%;
+    height: 600px;
+
+}
+
+.s2b .s2bp {
+    background-image: url('s2i2.png');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    height: 600px;
+    width: 55%;
+    position: absolute;
+    left: 20px;
+    margin: 20px;
+
+}
+
+
+.s2b .s2bt {
+    width: 32%;
+    margin-top: 200px;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #172B4D;
+    position: absolute;
+    left: 535px;
+    ;
+
+}
+
+.s2b .s2bt p {
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: -15px;
+    line-height: 30px;
+    width: 600px;
+
+}
+
+.s2c {
+    width: 100%;
+    height: 400px;
+
+
+}
+
+.s2c .s2cp {
+    background-image: url('s2i3.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    height: 400px;
+    width: 40%;
+    position: absolute;
+    right: 40px;
+
+}
+
+
+.s2c .s2ct {
+    width: 48%;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #172B4D;
+    position: absolute;
+    left: 80px;
+
+}
+
+.s2c .s2ct p {
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: -15px;
+    line-height: 30px;
+    width: 600px;
+}
+
+.s2c .s2ct ul {
+
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+
+.s3 {
+    width: 100%;
+    height: 700px;
+
+}
+
+
+.s3a {
+    width: 100%;
+    height: 700px;
+    position: relative;
+
+}
+
+.s3t {
+    width: 50%;
+
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #172B4D;
+    margin-left: 280px;
+
+}
+
+.s3t p {
+    margin-top: -20px;
+}
+
+.s3pp {
+    width: 100%;
+    position: relative;
+}
+
+.s3a .s3p {
+    background-image: url('board-back.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 500px;
+    width: 68%;
+    position: absolute;
+    margin-left: 0px;
+    border-radius: 20px;
+    margin: 0px 200px;
+
+}
+
+.s3a .fa-chevron-circle-left {
+    font-size: 100px;
+    text-shadow: 0px 10px 20px rgb(0, 0, 0.325);
+    position: absolute;
+    left: 100px;
+    color: white;
+    top: 200px;
+
+}
+
+.s3a .fa-chevron-circle-right {
+    font-size: 100px;
+    text-shadow: 0px 10px 20px rgb(0, 0, 0.325);
+    position: absolute;
+    right: 100px;
+    color: white;
+    top: 200px;
+
+
+}
+
+.s3a .fa:hover {
+    color: darkturquoise;
+}
+
+.s3a .s3t1 h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    background: rgba(11, 86, 139, 0.25);
+    position: absolute;
+    width: 200px;
+    padding: 8px 5px;
+    border-radius: 5px;
+    left: 220px;
+    color: white;
+
+}
+
+.s3a .s3t1 p {
+    margin-top: 80px;
+    font-size: 20px;
+    background: rgba(11, 86, 139, 0.25);
+    position: absolute;
+    width: 250px;
+
+    border-radius: 5px;
+    left: 220px;
+    color: white;
+    padding: 8px 0px 8px 10px;
+    text-align: left;
+    font-family: sans-serif;
+
+
+}
+
+.s3a .s3t1 .user1 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-image: url('user-1.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    left: 470px;
+    margin-top: 20px;
+}
+
+.s3a .s3t1 .user2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-image: url('user-2.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    left: 440px;
+    margin-top: 20px;
+}
+
+.s3a .s3t1 .user3 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-image: url('user-3.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    left: 500px;
+    margin-top: 20px;
+}
+
+.s3a .s3t1 .s3c h3 {
+    background-color: rgba(48, 54, 76, 0.8);
+    width: 67.4%;
+    height: 80px;
+    color: white;
+    margin-left: -20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    bottom: 12px;
+    text-align: center;
+}

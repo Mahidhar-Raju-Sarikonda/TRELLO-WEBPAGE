@@ -1,0 +1,853 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    margin: 0px;
+    background-color: white;
+    font-family: "Charlie Text", sans-serif;
+}
+
+container {
+    width: 12000px;
+    margin: auto;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    background: linear-gradient(135deg, #0079bf, #5067c5);
+    width: 100%;
+    height: 75px;
+    position: relative;
+    border-bottom: 0.01px solid#000;
+
+
+}
+
+.header .hdt {
+    position: absolute;
+    left: 84%;
+    top: 28%;
+
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    font-weight: 500;
+
+
+}
+
+.header .login {
+    padding: 8px;
+    background-color: white;
+    color: #5067c5;
+    border-radius: 5px;
+}
+
+/*s1*/
+.s1 {
+    width: 100%;
+    height: 620px;
+    background: linear-gradient(135deg, #0079bf, #5067c5);
+    position: relative;
+}
+
+.s1 .s1-img {
+    background-image: url('s1img.svg');
+    background-size: 95%;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 450px;
+    position: absolute;
+    left: 800px;
+    top: 30px;
+
+
+}
+
+.s1 .s1-txt {
+    width: 43%;
+    height: 80%;
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    left: 60px;
+    top: 50px;
+}
+
+.s1 .s1-txt h3 {
+    font-size: 45px;
+
+    font-weight: 600;
+    width: 580px;
+    height: 140px;
+
+}
+
+.s1 .s1-txt p {
+    font-size: 22px;
+
+    line-height: 35px;
+    width: 450px;
+
+}
+
+.mail {
+    width: 650px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    top: 460px;
+    left: 75px;
+
+}
+
+.s1 .mail .mb {
+
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+    color: grey;
+    background-color: white;
+    font-size: 20px;
+
+    padding: 10px 20px;
+
+}
+
+.s1 .mail .sub {
+    border-radius: 5px;
+    width: 250px;
+    height: 35px;
+    color: white;
+    background-color: #61BD4F;
+    font-size: 23px;
+    margin-left: 8px;
+    padding: 5px;
+    border: 3px solid hsl(110, 58%, 42%);
+    text-align: center;
+    font-family: Verdana;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.s2 {
+    width: 100%;
+    height: 1500px;
+
+
+
+}
+
+.s2a {
+    width: 100%;
+    height: 500px;
+
+}
+
+.s2a .s2ap {
+    background-image: url('s2i1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    width: 55%;
+    position: absolute;
+    right: 40px;
+    margin: 20px;
+
+}
+
+.s2a .s2at {
+    width: 32%;
+    margin-top: 150px;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #172B4D;
+    position: absolute;
+    left: 80px;
+
+}
+
+.s2a .s2at p {
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: -15px;
+    line-height: 30px;
+}
+
+.s2a .s2at h4 {
+    background-color: #6D8EA2;
+    color: white;
+    font-weight: 10;
+    padding: 10px;
+    width: 150px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 22px;
+    text-align: center;
+    border: 3px solid#6D8EA2;
+}
+
+.s2a .s2at h4:hover {
+    background-color: grey;
+}
+
+.s2b {
+    width: 100%;
+    height: 600px;
+
+}
+
+.s2b .s2bp {
+    background-image: url('s2i2.png');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    height: 600px;
+    width: 55%;
+    position: absolute;
+    left: 20px;
+    margin: 20px;
+
+}
+
+
+.s2b .s2bt {
+    width: 32%;
+    margin-top: 200px;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #172B4D;
+    position: absolute;
+    left: 800px;
+
+}
+
+.s2b .s2bt p {
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: -15px;
+    line-height: 30px;
+    width: 600px;
+
+
+}
+
+.s2c {
+    width: 100%;
+    height: 400px;
+
+
+}
+
+.s2c .s2cp {
+    background-image: url('s2i3.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    height: 400px;
+    width: 40%;
+    position: absolute;
+    right: 40px;
+
+}
+
+
+.s2c .s2ct {
+    width: 48%;
+    margin-top: 60px;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #172B4D;
+    position: absolute;
+    left: 80px;
+
+}
+
+.s2c .s2ct p {
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: -15px;
+    line-height: 30px;
+    width: 600px;
+}
+
+.s2c .s2ct ul {
+
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+
+.s3 {
+    width: 100%;
+    height: 700px;
+
+}
+
+
+.s3a {
+    width: 100%;
+    height: 700px;
+    position: relative;
+
+}
+
+.s3t {
+    width: 50%;
+
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #172B4D;
+    margin-left: 280px;
+
+}
+
+.s3t p {
+    margin-top: -20px;
+}
+
+.s3pp {
+    width: 100%;
+    position: relative;
+}
+
+.s3a .s3p {
+    background-image: url('board-back.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 500px;
+    width: 68%;
+    position: absolute;
+    margin-left: 0px;
+    border-radius: 20px;
+    margin: 0px 200px;
+
+}
+
+.s3a .fa-chevron-circle-left {
+    font-size: 100px;
+    text-shadow: 0px 10px 20px rgb(0, 0, 0.325);
+    position: absolute;
+    left: 100px;
+    color: white;
+    top: 200px;
+
+}
+
+.s3a .fa-chevron-circle-right {
+    font-size: 100px;
+    text-shadow: 0px 10px 20px rgb(0, 0, 0.325);
+    position: absolute;
+    right: 100px;
+    color: white;
+    top: 200px;
+
+
+}
+
+.s3a .fa:hover {
+    color: darkturquoise;
+}
+
+.s3a .s3t1 h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    background: rgba(11, 86, 139, 0.25);
+    position: absolute;
+    width: 200px;
+    padding: 8px 5px;
+    border-radius: 5px;
+    left: 220px;
+    color: white;
+
+}
+
+.s3a .s3t1 p {
+    margin-top: 80px;
+    font-size: 20px;
+    background: rgba(11, 86, 139, 0.25);
+    position: absolute;
+    width: 250px;
+
+    border-radius: 5px;
+    left: 220px;
+    color: white;
+    padding: 8px 0px 8px 10px;
+    text-align: left;
+    font-family: sans-serif;
+
+
+}
+
+.s3a .s3t1 .user1 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-image: url('user-1.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    left: 470px;
+    margin-top: 20px;
+}
+
+.s3a .s3t1 .user2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-image: url('user-2.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    left: 440px;
+    margin-top: 20px;
+}
+
+.s3a .s3t1 .user3 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-image: url('user-3.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    left: 500px;
+    margin-top: 20px;
+}
+
+.s3a .s3t1 .s3c h3 {
+    background-color: rgba(48, 54, 76, 0.8);
+    width: 67.4%;
+    height: 80px;
+    color: white;
+    margin-left: -20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    bottom: 12px;
+    text-align: center;
+}
+
+.s4 {
+    width: 100%;
+    height: 660px;
+
+
+}
+
+.s4c {
+    width: 100%;
+    height: 660px;
+}
+
+
+
+.s4c .s4t {
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #172B4D;
+
+}
+
+.s4c .s4t p {
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: -25px;
+    line-height: 30px;
+}
+
+.s4c .boxes {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    margin-top: 50px;
+
+
+}
+
+.s4c .boxes .box1 {
+    width: 30%;
+    height: 450px;
+    margin-left: 35px;
+    text-align: center;
+    color: #567486;
+    font-size: 20px;
+    align-content: center;
+
+}
+
+.s4c .boxes .box1 .bi1 {
+    background-image: url(b1p.png);
+    background-size: 100%;
+    width: 70%;
+    background-repeat: no-repeat;
+    height: 250px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+.s4c .boxes .box1 h3 {
+    font-size: 22px;
+    margin: 0px;
+    margin-top: -40px;
+}
+
+.s4c .boxes .box1 p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.s4c .boxes .box1 a {
+    background-color: #567486;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 40px;
+}
+
+.s4c .boxes .box1 .bi2 {
+    background-image: url(b2p.png);
+    background-size: 100%;
+    width: 70%;
+    background-repeat: no-repeat;
+    height: 250px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+.s4c .boxes .box1 .bi3 {
+    background-image: url(b3p.png);
+    background-size: 100%;
+    width: 70%;
+    background-repeat: no-repeat;
+    height: 250px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+.s4c .boxes .box1 .apst {
+    background-image: url('btn-appstore-black.png');
+    background-size: 100%;
+    width: 30%;
+    background-repeat: no-repeat;
+    height: 50px;
+    margin-left: 75px;
+
+}
+
+.s4c .boxes .box1 .plst {
+    background-image: url('btn-playstore-black.png');
+    background-size: 100%;
+    width: 30%;
+    background-repeat: no-repeat;
+    height: 50px;
+    margin-left: 5px;
+
+
+}
+
+s4c .boxes .box1 .store {
+    display: flex;
+}
+
+.s4c .boxes .box1 .store a {
+    display: flex;
+    background-color: inherit;
+    padding: 0px;
+
+
+}
+
+.s4c .boxes .box1 a:hover {
+    background-color: #395e75;
+}
+
+.s4c .boxes .box1 .store a:hover {
+    color: white;
+    background-color: white;
+}
+
+.s5c {
+    width: 100%;
+    height: 520px;
+
+}
+
+.s5c .s5b {
+    background: linear-gradient(180deg, #42548e 0%, #6b668c 100%);
+    width: 85%;
+    height: 500px;
+    margin-left: 80px;
+    border-radius: 20px;
+    font-size: 25px;
+    position: relative;
+}
+
+.s5c .s5b .s5bt {
+    color: white;
+    text-align: center;
+    left: 350px;
+    position: absolute;
+    line-height: 10px;
+    padding-top: 10px;
+    top: 20px;
+}
+
+.s5c .s5b .s5bt p {
+    font-weight: 100;
+    font-size: 20px;
+
+}
+
+.s5c .google {
+    position: absolute;
+    background-image: url('logo-google.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    width: 150PX;
+    height: 50px;
+    left: 100px;
+    top: 160px;
+
+}
+
+.s5c .fender {
+    position: absolute;
+    background-image: url('logo-fender.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    width: 150PX;
+    height: 50px;
+    left: 320px;
+    top: 160px;
+
+}
+
+.s5c .sqyarespace {
+    position: absolute;
+    background-image: url('logo-squarespace.svg');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    color: white;
+    width: 13%;
+    height: 60px;
+    left: 580px;
+    top: 160px;
+
+}
+
+.s5c .costco {
+    position: absolute;
+    background-image: url('logo-costco.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    width: 16%;
+    height: 70px;
+    left: 800px;
+    top: 160px;
+
+}
+
+.s5c .lush {
+    position: absolute;
+    background-image: url('logo-lush.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    width: 15%;
+    height: 50px;
+    left: 200px;
+    top: 270px;
+}
+
+.s5c .pintrest {
+    position: absolute;
+    background-image: url('logo-pinterest.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    width: 6%;
+    height: 70px;
+    left: 480px;
+    top: 270px;
+}
+
+.s5c .peloton {
+    position: absolute;
+    background-image: url('logo-peloton.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    width: 18%;
+    height: 70px;
+    left: 650px;
+    top: 270px;
+}
+
+.s5c .s5b .s5cct {}
+
+.s5c .s5b .s5cct p {
+    padding: 12px;
+    background-color: #ebecf0;
+    width: 145px;
+    border-radius: 5px;
+    height: 20px;
+    position: absolute;
+    font-weight: 300;
+    left: 430px;
+    top: 370px;
+    color: #172B4D;
+
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+
+.s6c {
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(to bottom, #fff 0%, #f7ecff 46%, #d2ecff 74%, #fff 100%);
+    position: relative;
+}
+
+.s6c .s6ci {
+    background-image:
+        url('https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/97db7688a52a697ea9376a5f0fe5d98f/trellians-2x-2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    position: absolute;
+}
+
+.s6c .s6ct {
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #172B4D;
+    top: 80px;
+    left: 450px;
+    position: absolute;
+
+}
+
+.s6c .s6ct p {
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: -25px;
+    line-height: 30px;
+}
+
+
+.s6c .s6ct .start h6 {
+    background-color: #61BD4F;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    left: 150px;
+    width: 220px;
+    margin-top: 0px;
+    font-weight: 100;
+    position: absolute;
+    font-size: 22px;
+}
+
+.s6c .strt {
+    background-color: white;
+    border: 2px solid #EDEFF0;
+    color: #959DA1;
+    padding: 9px;
+    border-radius: 5px;
+    position: absolute;
+    width: 150px;
+    left: 655px;
+    bottom: 125px;
+
+}
+
+.s6c .strt p {
+    font-weight: 100;
+    font-size: 18px;
+    margin: 0px;
+    
+}
+
+.s6c .start h6:hover {
+    background-color: forestgreen;
+}
+
+.s6c .strt .fa-angle-down {
+    margin-left: 74px;
+}
+
+.s6c .footer {
+    position: absolute;
+    bottom: 80px;
+    margin-left: 355px;
+
+}
+
+.s6c .footer a {
+    color: #8993A4;
+    margin-left: 12px;
+    font-family: "Charlie Text", sans-serif;
+    font-weight: bolder;
+
+
+}
+
+.s6c .footer a:hover {
+    color: #172B4D;
+
+
+
+}
+
+.s6c .ftrt {
+    background-image: url('ftlg.svg');
+    background-size: 34%;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 40px;
+    position: absolute;
+    bottom: 18px;
+    left: 655px;
+}
+
+.s6c .cr {
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 590px;
+    color: #172B4D;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 18px;
+}
